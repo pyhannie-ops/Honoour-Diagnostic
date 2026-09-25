@@ -29,7 +29,11 @@ through **Wix Invoices** on the existing Wix site, **Hannie Consultants cc**.
 
 ## Setup checklist (before the Q1 2027 launch)
 
-- [ ] Confirm the current Wix plan includes Invoices and online payments, and note its renewal date
+The values for each step are in [`docs/invoicing/wix-invoice-setup.md`](../invoicing/wix-invoice-setup.md).
+
+
+- [x] Wix Invoices is installed, the site is on a Premium plan and the currency is USD (checked 2026-09-25)
+- [ ] Note the plan's renewal date
 - [ ] Add business details for invoices: legal name, address, VAT/tax number and logo
 - [ ] Set the currency, tax rates and default payment terms
 - [ ] Connect a payment provider so clients can pay invoices online
