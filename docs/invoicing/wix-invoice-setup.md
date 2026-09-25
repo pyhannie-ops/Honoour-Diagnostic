@@ -12,7 +12,7 @@ Wix dashboard. See the status note below for why.
 | Site currency | USD ✅ |
 | Premium plan | Yes |
 | Business name / email / address | Filled in (Callington Crescent, Cape Town, WC 7441) |
-| Phone | ⚠️ Wix has **+27 83 216 3433**, the template has **+27 63 931 0758**. Choose one. |
+| Phone | +27 63 931 0758 ✅ (updated 2026-09-25 to match the template) |
 | Logo, company registration no. | Not set in Business Info |
 | Invoice numbering, template, items | **Enter these in the dashboard.** The new Wix Invoices API returns `428 INVOICES_API_UNAVAILABLE` for this site. Wix is moving sites off the older invoicing system gradually, and this one hasn't moved yet. |
 
@@ -32,7 +32,7 @@ Wix dashboard. See the status note below for why.
 
 - Business name: `Hannie Consultants cc`
 - Email: `hello@hannieonline.co.za`
-- Phone: *(choose: +27 63 931 0758 or +27 83 216 3433)*
+- Phone: `+27 63 931 0758` (done)
 - Address: Cape Town, South Africa (already set)
 - Company ID / Reg. No.: *[Reg. number]*
 - Logo: upload the Hannie logo
@@ -63,8 +63,8 @@ Invoice title: `Honour™ Diagnostic`
 | Honour™ Diagnostic: Deposit (50%) | 1,650.00 | Confirms booking. 3 facilitated sessions (90 min), organisational and individual reports, Gifts of Clarity. Engagement fee $3,300.00. |
 | Honour™ Diagnostic: Balance (50%) | 1,650.00 | Balance of the $3,300.00 engagement fee, due on delivery of the Honour Report. |
 
-Tax: none on either item. Hannie Consultants cc isn't registered for VAT,
-but confirm this with your accountant.
+Tax: none on either item. Hannie Consultants cc isn't registered for VAT, so
+don't add a tax rate.
 
 ## 5. Default notes / footer
 
