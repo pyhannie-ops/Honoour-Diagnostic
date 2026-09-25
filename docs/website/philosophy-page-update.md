@@ -1,67 +1,65 @@
 # Our Philosophy page: restructure (Wix Editor)
 
 This guide updates the **Our Philosophy** page on **Hannie Consultants cc** to
-match `Philosophy_Restructure_Mockup_1.html`. It reuses the blocks and colour
-palette already on the page. The compass diagram stays as it is.
+match `Philosophy_Restructure_Mockup_1.html`. It reuses the blocks and colours
+already on the page. The compass section stays as it is.
 
 ## Status (checked 2026-09-25)
 
 | Item | State |
 |---|---|
-| Site | Hannie Consultants cc (Wix Editor, Velo enabled) |
-| Page text and layout | **Edit these in the Wix Editor.** Wix has no public API for changing Editor page elements, so the changes can't be pushed remotely. |
-| Compass section | Leave it as it is |
+| Site | Hannie Consultants cc (Wix Editor, draft, Velo enabled) |
+| Page text and layout | **Edit these in the Wix Editor.** Wix has no API for changing Editor page elements, and the Editor needs your login, so these changes can't be made remotely. |
+| Compass section | No changes |
 
-Open the page: **My Sites > Hannie Consultants cc > Edit Site**, then pick
-**Our Philosophy** from the Pages menu.
+Editor link (Our Philosophy page):
+https://priscilladkhannie-hannieverse.editor.wix.com/html/editor/web/renderer/edit/350e04bf-f17e-4e13-a016-8ac7ec93f823?metaSiteId=10ff78fd-eec0-44fa-bd46-69fb2d58c790
 
-## Palette (already on the site)
+## What's on the page now
 
-| Token | Hex | Used for |
+| # | Block | Where |
 |---|---|---|
-| Ink | `#1A1A1A` | Headline text |
-| Gold | `#C08A2E` | Card left border |
-| Gold pale | `#F5F1E8` | Hook section background, card hover |
-| Teal | `#095656` | Eyebrow, "Read the full philosophy" link, bridge line |
-| Mist | `#F7F6F3` | Card background |
-| Slate | `#2C3E50` | Body and card text |
+| A | Gold title: "HannieVerse Enterprise™ Compass / Our Philosophy" | Beige strip |
+| B | Teal line: "Grow The Vision." | Beige strip |
+| C | Gold heading: "Here's Ours" | Beige strip |
+| D | One long centred text box (the whole philosophy plus the nine lines) | Beige strip |
+| E | Gold heading: "What's yours?" | Bottom of beige strip |
+| F | "How the philosophy shows up." heading, paragraph and compass image | White strip |
+| G | Five empty boxes (teal border, white to grey fill), 3 + 2 | Below the compass |
 
-Font: Poppins, as on the rest of the site.
+## What changes, block by block
 
-## Page order (top to bottom)
+### A. Title: no change
 
-1. Hook section (existing top strip)
-2. "What's yours?" grid (existing strip holding the nine lines)
-3. Bridge line
-4. Compass diagram (unchanged)
+### B. "Grow The Vision.": becomes the hook line
 
-## 1. Hook section
+Change the text to:
 
-Use the existing top strip. Set its background to Gold pale `#F5F1E8` if it
-isn't already. Centre the text.
+> You didn't arrive here by accident.
 
-| Element | Text | Style |
-|---|---|---|
-| Eyebrow | OUR PHILOSOPHY | Poppins bold, 11px, all caps, letter spacing ~0.2em, Teal |
-| Headline | You didn't arrive here by accident. | Poppins semibold, ~36px desktop, Ink |
-| Sub-line | Something in your system (your team, your vision, or your way of working) is ready for a change. | Poppins regular, 16px, Slate |
+Keep the teal colour and font. You can make it a little larger (about 30 to
+36px) so it reads as the main line.
 
-### "Read the full philosophy" drop-down
+### C. "Here's Ours": delete
 
-Replace the existing long philosophy text box with a **collapsible text**
-element, so the four paragraphs stay hidden until the visitor opens them.
+The mock-up goes straight from the hook line to the sub-line. Now that the
+philosophy sits in the drop-down, this heading has nothing under it.
 
-1. Click **Add Elements (+) > Text > Collapsible Text** and drop it under the
-   sub-line, inside the hook strip.
-2. Paste the four paragraphs below into it.
-3. In **Settings**, set it to expand with a button, and set the button text to
-   **Read the full philosophy**.
-4. **Design:** body text Poppins 15px Slate, left-aligned, max width ~640px.
-   Button text Poppins semibold, Teal, no fill, with a Teal underline. Hover
-   colour Gold.
-5. Delete the old text box once the new one is in place.
+### D. Long text box: split into a sub-line and a drop-down
 
-Hidden text:
+1. **Keep the text box**, but replace all its text with just the sub-line:
+
+   > Something in your system (your team, your vision, or your way of
+   > working) is ready for a change.
+
+2. **Add the drop-down.** Click **Add Elements (+) > Text > Collapsible
+   Text** and place it directly under the sub-line, in the beige strip.
+3. In its **Settings**, set it to expand with a button and set the button
+   text to **Read the full philosophy**.
+4. **Design:** copy the text colour and font from box D (right-click box D >
+   Copy Design, then Paste Design on the new element, if your Editor offers
+   it). Make the button text teal, with no fill.
+5. Paste these four paragraphs in as the hidden text:
 
 > At Hannie Consultants, we provide an environment in which clarity,
 > collaboration and transformation can exist. We provide creative coaching,
@@ -81,20 +79,27 @@ Hidden text:
 > working that is clear, grounded, and wise. This approach helps the work grow
 > and succeed.
 
-## 2. "What's yours?" grid
+The nine "We act... / We lead..." lines leave box D and move into the cards
+(step G).
 
-Turn the nine stacked, centred lines into a 3 × 3 grid of cards in the
-existing strip (white background). Use a **repeater** or a **3-column
-layout** with nine boxes.
+### E. "What's yours?": no change
 
-- Heading above the grid: **What's yours?** (Poppins semibold, ~24px, Ink,
-  centred)
-- Each card: Mist `#F7F6F3` fill, 3px Gold `#C08A2E` left border only, text
-  Poppins 14–15px Slate, left-aligned, ~20px padding, ~14px gap between cards
-- Hover (optional): fill Gold pale, left border Teal
-- Mobile: stack the cards in one column
+It becomes the heading for the cards.
 
-Card text, in order:
+### G. The five empty boxes: become the nine cards
+
+These boxes already use the site's teal border, so reuse them for the grid.
+
+1. Select all five boxes and drag them up into the beige strip, directly
+   under **"What's yours?"** (above the compass section). Make the strip
+   taller if you need room.
+2. Duplicate one box four times (Ctrl+C, Ctrl+V) to get **nine**.
+3. Arrange them **3 across × 3 down** with even gaps (select a row and use
+   **Arrange > Distribute**, or the alignment tools).
+4. Add a text box inside each one (or type into them if they're text boxes
+   already). Use the same font and colour as box D, left-aligned, about 14px.
+
+Card text, in order (left to right, top to bottom):
 
 1. We act with purpose, calm and precision.
 2. We lead with care.
@@ -106,22 +111,36 @@ Card text, in order:
 8. We listen deeply.
 9. We respond with intention. We shape what's true, not what's convenient.
 
-## 3. Bridge line
+### Bridge line: new, under the cards
 
-Put a single centred line directly above the compass diagram:
+Add one centred text line below the cards, at the bottom of the beige strip:
 
 > *Here's what ours looks like when it meets the work.*
 
-Style: Poppins italic, ~18px, Teal.
+Style: italic, teal (the same teal as "Grow The Vision.").
 
-## 4. Compass diagram
+### F. Compass section: no change
 
-No changes.
+Leave the "How the philosophy shows up." heading, its paragraph and the
+compass image as they are.
+
+## Final page order
+
+1. Title (A)
+2. "You didn't arrive here by accident." (B)
+3. Sub-line (D)
+4. **Read the full philosophy ▾** drop-down
+5. "What's yours?" (E)
+6. Nine cards, 3 × 3 (G)
+7. Bridge line
+8. How the philosophy shows up + compass (F)
 
 ## Checks before publishing
 
-- [ ] Preview in mobile view: hook text centred, cards in one column
+- [ ] "Here's Ours" is deleted and no duplicate text is left in box D
 - [ ] "Read the full philosophy" opens and closes the four paragraphs
-- [ ] The old nine-line text and old philosophy text box are removed
-- [ ] The compass section is unchanged
-- [ ] Publish
+- [ ] Nine cards, 3 × 3, no empty boxes left below the compass
+- [ ] Mobile view (phone icon at the top of the Editor): the cards stack
+      and nothing overlaps. Mobile layout is set separately in the Wix Editor.
+- [ ] Compass section unchanged
+- [ ] Save, then Publish
